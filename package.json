@@ -1,0 +1,15 @@
+{
+  "name": "web-coding-basics-tutorial",
+  "version": "1.0.0",
+  "description": "A web coding basics tutorial using HTML and CSS",
+  "main": "src/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Niels Holvoet",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.1",
+    "nodemon": "^2.0.20"
+  }
+}

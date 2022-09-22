@@ -1,0 +1,109 @@
+/* container */
+.container {
+    width: 100%;
+    padding: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+}
+
+
+/*navigation*/
+nav {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1;
+}
+
+
+nav .nav-bar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+nav .menu {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav .menu>li {
+    margin: 0 1rem;
+    overflow: hidden;
+}
+
+/* Header */
+header {
+    margin-top: 100px;
+}
+
+
+
+/* articles */
+
+.articles {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.articles>article {
+    width: 240px;
+    height: 375px;
+    position: relative;
+    text-align: left;
+}
+
+.articles>article h3 {
+    height: 75px;
+}
+
+.articles>article .benefit {
+    height: 100px;
+}
+
+.articles>article .more {
+    position: absolute;
+    bottom: 10px;
+}
+
+article .image {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 150px;
+}
+
+/* media queries for responsive design*/
+
+@media (min-width: 576px) {
+    .container {
+        max-width: 540px;
+    }
+}
+
+@media (min-width: 768px) {
+    .container {
+        max-width: 720px;
+    }
+}
+
+@media (min-width: 992px) {
+    .container {
+        max-width: 960px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1140px;
+    }
+}
